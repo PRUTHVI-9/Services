@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/x_axis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current X Axis"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/y_axis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Y Axis"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/z_axis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Z Axis"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/max_x_axis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max X Axis"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/max_y_axis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Y Axis"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/max_z_axis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Z Axis"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>
